@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color:#e8e9ea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.card-item{
+  width: 250px;
+  height: 120px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 32px;
+  position: relative;
+
+}
+
+.card-item img{
+  width: 40px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  
+}
+
+.card-description{
+  position: absolute;
+  bottom: 20px;
+}
